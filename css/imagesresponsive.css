@@ -1,0 +1,17 @@
+@media (max-width: 991px){
+	.img-responsive{
+		width: 350px;
+		height: 350px;
+		display: block;
+		margin: auto;
+	}
+	.parrafo{
+		margin: auto;
+	}
+}
+
+@media (max-width: 858px){
+	.img-config{
+		width: 100%;
+	}
+}

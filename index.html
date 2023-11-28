@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="App de Consultoria">
+	<title>LADETH Documentatios</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/imagesresponsive.css">
+	<!--Manifest-->
+	<link rel="manifest" href="./manifest.json">
+
+
+	<script>
+		if("serviceWorker" in navigator){
+			navigator.serviceWorker.register("sw.js");
+		}
+	</script>
+</head>
+<body>
+
+	<!--MENU-->
+	<nav style="position: fixed; top: 0;">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" style="color: #000;">
+			  	<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+			</svg>
+		</label>
+		<a class="enlace">
+			<button class="btn" onclick="loadDoc('index',funcion1)">
+				<img src="images/LADETH.png" alt="Logo LADETH" class="logo">
+			</button>
+		</a>
+		<ul>
+			<li><button class="btn" onclick="loadDoc('home')">Inicio</button></li>
+			<li><button class="btn" onclick="loadDoc('herramientas')">Herramientas</button></li>
+			<li><button class="btn" onclick="loadDoc('configuracion')">Configuración</button></li>
+			<li><button class="btn" onclick="loadDoc('pruebas')">Pruebas</button></li>
+			<li><a class="btn btn-success btnSesion" href="https://github.com/N3ckz0/ladeth.git">Aplicacion</a></li>
+		</ul>
+	</nav>
+
+	<section id="container">
+
+	</section>
+
+	<script>
+		function loadDoc(doc) {
+
+		    let url = doc + ".html";
+
+		    fetch (url)
+		    .then(x => x.text())
+		    .then(y => document.getElementById("container").innerHTML = y);
+		}
+
+		loadDoc('home');
+	</script>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

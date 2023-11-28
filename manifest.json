@@ -1,0 +1,119 @@
+{
+	"name" : "LADETH App",
+	"short_name" : "LADETH",
+	"theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./images/bootstrap.png",
+            "type": "image/png",
+            "sizes": "2356x1767"
+        },
+        {
+            "src": "./images/css3.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./images/git.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./images/github.png",
+            "type": "image/png",
+            "sizes": "524x512"
+        },
+        {
+            "src": "./images/gitkraken.png",
+            "type": "image/png",
+            "sizes": "585x512"
+        },
+        {
+            "src": "./images/gitkrakenconfig.jpg",
+            "type": "image/jpg",
+            "sizes": "1920x1080"
+        },
+        {
+            "src": "./images/gitmail.jpg",
+            "type": "image/jpg",
+            "sizes": "721x36"
+        },
+        {
+            "src": "./images/gituser.jpg",
+            "type": "image/jpg",
+            "sizes": "498x39"
+        },
+        {
+            "src": "./images/html.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./images/js.png",
+            "type": "image/png",
+            "sizes": "854x960"
+        },
+        {
+            "src": "./images/LADETH.png",
+            "type": "image/png",
+            "sizes": "704x299"
+        },
+        {
+            "src": "./images/link.jpg",
+            "type": "image/jpg",
+            "sizes": "565x54"
+        },
+        {
+            "src": "./images/mysql.png",
+            "type": "image/png",
+            "sizes": "600x400"
+        },
+        {
+            "src": "./images/php.png",
+            "type": "image/png",
+            "sizes": "306x165"
+        },
+        {
+            "src": "./images/pruebas.jpg",
+            "type": "image/jpg",
+            "sizes": "796x580"
+        },
+        {
+            "src": "./images/repogitkraken.jpg",
+            "type": "image/jpg",
+            "sizes": "1002x851"
+        },
+        {
+            "src": "./images/script.jpg",
+            "type": "image/jpg",
+            "sizes": "547x82"
+        },
+        {
+            "src": "./images/website.jpg",
+            "type": "image/jpg",
+            "sizes": "1909x914"
+        }
+    ],
+    "screenshots": [
+        {
+          "src": "./images/bootstrap.png",
+          "sizes": "2356x1767",
+          "type": "image/png",
+          "form_factor": "wide",
+          "label": "bootstrap"
+        },
+        {
+          "src": "./images/bootstrap.png",
+          "sizes": "2356x1767",
+          "type": "image/png",
+          "form_factor": "narrow",
+          "label": "bootstrap"
+        }
+    ],
+    "description": "Compress and compare images with different codecs right in your browser."
+}
